@@ -1,10 +1,10 @@
 export const manifest = {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set([]),
+	assets: new Set([".nojekyll"]),
 	mimeTypes: {},
 	_: {
-		client: {"start":"_app/immutable/entry/start.708be7ad.js","app":"_app/immutable/entry/app.715fd25e.js","imports":["_app/immutable/entry/start.708be7ad.js","_app/immutable/chunks/index.d0c0af47.js","_app/immutable/chunks/singletons.7611a0be.js","_app/immutable/entry/app.715fd25e.js","_app/immutable/chunks/index.d0c0af47.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.0153a10e.js","app":"_app/immutable/entry/app.d79273bf.js","imports":["_app/immutable/entry/start.0153a10e.js","_app/immutable/chunks/index.d0c0af47.js","_app/immutable/chunks/singletons.59c0edad.js","_app/immutable/entry/app.d79273bf.js","_app/immutable/chunks/index.d0c0af47.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),
